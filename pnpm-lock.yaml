@@ -14,6 +14,9 @@ dependencies:
   express:
     specifier: ^4.18.2
     version: 4.18.2
+  jstoxml:
+    specifier: ^5.0.0
+    version: 5.0.0
   nodemon:
     specifier: ^3.0.3
     version: 3.0.3
@@ -46,6 +49,9 @@ devDependencies:
   '@types/jest':
     specifier: ^29.5.11
     version: 29.5.11
+  '@types/jstoxml':
+    specifier: ^2.0.4
+    version: 2.0.4
   '@types/node':
     specifier: ^20.11.5
     version: 20.11.5
@@ -1073,6 +1079,10 @@ packages:
     dependencies:
       expect: 29.7.0
       pretty-format: 29.7.0
+    dev: true
+
+  /@types/jstoxml@2.0.4:
+    resolution: {integrity: sha512-XHUMp2t8CfJUsKt8qjlspZWlkVeveFg2eF/kRV8CKiNQ+Fd3mJkfexIDXtZEnG/4aJZRCVNNn46zNddSVIUN0w==}
     dev: true
 
   /@types/keyv@3.1.4:
@@ -3108,6 +3118,10 @@ packages:
   /jsonc-parser@3.2.0:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
     dev: true
+
+  /jstoxml@5.0.0:
+    resolution: {integrity: sha512-sQ9skXWPCaZD7Ww2bgTGZVqxcFPs2NCdygkJsNK3y+BZL2k8+u0FM2T/A1hON+u+Bg8CTjK7U3aiszwrk18ECQ==}
+    dev: false
 
   /keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
