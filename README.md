@@ -4,7 +4,9 @@ This is a simple project to demonstrate the Clean Architecture principles in a N
 
 The clean architecture is a software design philosophy that separates the concerns of the application into different layers. This separation allows for better maintainability, testability, and scalability of the application.
 
+<center>
 ![Clean Architecture](.github/images/CleanArchitecture.jpg)
+</center>
 
 The main layers of the clean architecture are:
 - **Entities:** The entities are the core of the application. They represent the business rules and are independent of any other layer.
